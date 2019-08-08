@@ -1,0 +1,238 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.header {
+    background-image: url('images/BG-head2.png');
+    height: 230px;
+}
+
+.wrapper-flex {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-block1 {
+    width: 800px;
+    margin: 40px 240px 0 0;
+}
+
+.header-block2 {
+    width: 223px;
+    margin: 20px 0 0 0;
+}
+
+.block-text {
+    font-family: RobotoBold, Arial, sans-serif;
+    font-size: 12px;
+    padding: 8px 0 0 0;
+}
+
+.block-text_a {
+    color: black;
+}
+
+.header-block1-title {
+    font-family: RobotoLight, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 50px 0 0 0;
+}
+
+.bg {
+    background-color: #eeeeee;
+    padding: 30px 0 5px 0;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.comments {
+    margin: 0 0 30px 0;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.block-text-comments {
+    margin: 10px 0;
+}
+
+.username {
+    font-family: RobotoBold, Arial, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.time {
+    font-family: RobotoLight, Arial, sans-serif;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 11px;
+}
+
+.date {
+    font-family: RobotoLight, Arial, sans-serif;
+    font-size: 11px;
+    display: inline-block;
+}
+.message {
+    font-family: RobotoLight, Arial, sans-serif;
+    font-size: 14px;
+    margin: 10px 0 30px 0;
+}
+
+.form-title {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.form-comments {
+    width: 500px;
+    margin: 0 0 50px 0;
+    position: relative;
+}
+
+
+.form-text {
+    font-family: RobotoLight, Arial, sans-serif;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.form_input {
+    width: 440px;
+    height: 24px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.form_textarea {
+    background-color: #eeeeee;
+    display: block;
+    width: 440px;
+    height: 130px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.form-button {
+    background-color: #eeeeee;
+    border: 2px solid #000000;
+    border-radius: 3px;
+    padding: 10px;
+
+    font-family: RobotoLight, Arial, sans-serif;
+    font-size: 18px;
+
+    position: relative;
+    left: 352px;
+
+
+}
+
+.form-button:hover {
+    opacity: .85;
+    cursor: pointer;
+}
+
+.form-button:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.footer-comments {
+    background-color: #ffffff;
+}
+
+.footer-block {
+    margin-top: 20px;
+}
+
+.footer-img {
+    width: 101px;
+    height: 106px;
+    margin: 15px 30px 10px 10px;
+}
+
+.block-2-text {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
